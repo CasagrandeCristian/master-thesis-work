@@ -58,14 +58,8 @@ def main():
     # Generate final analysis plots
     #plot_combined_summary(sim)
     #plot_individual_metrics(sim)
-    #save_summary_csv(sim)
-    #plot_malicious_rate_analysis("dijkstraZeroHelpRun.csv")
-    #plot_good_transactions_breakdown("dijkstraZeroHelpRun.csv")
-    #plot_good_trades_share_distribution("dijkstraZeroHelpRun.csv")
-    #plot_combined_negative_trends("csv/dijkstraZeroHelpRun.csv", "csv/dijkstraNormalRun.csv", "csv/dijkstraPathRun.csv", "csv/dijkstraPunishRun.csv")
-    #plot_bad_trades_share_distribution("dijkstraZeroHelpRun.csv")
-    #plot_results_attack(folder_path="experiments/attacksNoDef/normalRun/", output_dir="experiments/attacksNoDef/normalRun/plots")   
-    plot_results_attack(folder_path="experiments/attacksWithDef/path/collusion", output_dir="experiments/attacksWithDef/path/collusion/plots")
+    #save_summary_csv(sim) 
+    #plot_results_attack(folder_path="experiments/attacksWithDef/path/collusion", output_dir="experiments/attacksWithDef/path/collusion/plots")
 
 if __name__ == "__main__":
     main()
